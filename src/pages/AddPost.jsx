@@ -7,7 +7,6 @@ import { useForm } from "react-hook-form";
 import { toast } from "react-toastify";
 import { useMutation } from "@tanstack/react-query";
 import { postProduct } from "../api/DataApi";
-
 const AddPost = () => {
   const category = [
     { title: "Laptop" },
