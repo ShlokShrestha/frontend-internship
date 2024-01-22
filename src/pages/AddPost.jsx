@@ -94,7 +94,6 @@ const AddPost = () => {
     <>
       <div className="lg:max-w-lg md:max-w-max mx-auto mt-5 py-2">
         <h1 className="text-center py-3 text-2xl font-bold">Add Product</h1>
-
         <form
           className="mx-auto p-3 grid lg:grid-cols-2 grid-cols-1 gap-2"
           onSubmit={handleSubmit(onSubmit)}

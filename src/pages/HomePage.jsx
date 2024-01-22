@@ -18,7 +18,6 @@ const HomePage = () => {
   if (isError) {
     return <span>Error: {error.message}</span>;
   }
-
   return (
     <>
       <div>
