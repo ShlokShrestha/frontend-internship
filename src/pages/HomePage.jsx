@@ -1,7 +1,6 @@
 import React from "react";
 import { getAllProduct } from "../api/DataApi";
 import { useQuery } from "@tanstack/react-query";
-
 import ProductCard from "../components/ProductCard";
 import Loader from "../components/Loader";
 
@@ -14,7 +13,6 @@ const HomePage = () => {
   if (isPending) {
     return <Loader />;
   }
-
   if (isError) {
     return <span>Error: {error.message}</span>;
   }
